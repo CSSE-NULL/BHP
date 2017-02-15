@@ -15,7 +15,7 @@ from github3 import login
 trojan_id = "abc"
 
 trojan_config = "%s.json" % trojan_id
-data_path = "chapter7/data/%s/" % trojan_id
+data_path = "chapter7/trojan/data/%s/" % trojan_id
 trojan_modules = []
 configured = False
 task_queue = Queue.Queue()
